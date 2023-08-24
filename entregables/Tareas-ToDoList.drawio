@@ -1,0 +1,97 @@
+<mxfile host="Electron" modified="2023-08-23T22:48:34.874Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="UeZjETSfF8JFZ161gP--" version="21.6.8" type="device">
+  <diagram name="Página-1" id="y_4rZbNugFlYZEgNRH5c">
+    <mxGraphModel dx="1680" dy="932" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q6yt_Ocg_WMX1UqEqIzg-1" value="En Proceso" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=35;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="54" y="-12" width="247" height="467" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-2" value="Diseño del algoritmo para las pricipales caracteristicas" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#000000;fillColor=#99CCFF;align=left;verticalAlign=top;" parent="q6yt_Ocg_WMX1UqEqIzg-1" vertex="1">
+          <mxGeometry x="9.5" y="49" width="228" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-4" value="Buscar ideas similares" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#000000;fillColor=#99CCFF;align=center;verticalAlign=middle;" parent="q6yt_Ocg_WMX1UqEqIzg-1" vertex="1">
+          <mxGeometry x="9.5" y="122" width="228" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="yFSVLmBvceMdSCzZUma9-2" value="(SGT001): Realizar la funcion que agregará una nueva tarea&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#000000;fillColor=#99CCFF;" parent="q6yt_Ocg_WMX1UqEqIzg-1" vertex="1">
+          <mxGeometry x="7.5" y="172" width="230" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="q6yt_Ocg_WMX1UqEqIzg-2" value="&lt;font color=&quot;#ffffff&quot;&gt;Pedientes&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=35;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="-12" width="247" height="601" as="geometry" />
+        </mxCell>
+        <mxCell id="yFSVLmBvceMdSCzZUma9-3" value="(SGT002): Realizar la funcion que elimina una tarea.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#000000;fillColor=#99CCFF;" parent="q6yt_Ocg_WMX1UqEqIzg-2" vertex="1">
+          <mxGeometry x="8.5" y="122" width="230" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="yFSVLmBvceMdSCzZUma9-4" value="(SGT005): Realizar la caracteristica de visualizar todas las tareas&lt;span style=&quot;background-color: initial;&quot;&gt;.&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#000000;fillColor=#99CCFF;" parent="q6yt_Ocg_WMX1UqEqIzg-2" vertex="1">
+          <mxGeometry x="8.5" y="46" width="230" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="yFSVLmBvceMdSCzZUma9-5" value="(SGT003):Realizar la carcteristca de marcar una tarea como completada" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#000000;fillColor=#99CCFF;" parent="q6yt_Ocg_WMX1UqEqIzg-2" vertex="1">
+          <mxGeometry x="8.5" y="198" width="230" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="yFSVLmBvceMdSCzZUma9-6" value="(SGT006): Realizar la carcteristca de editar información de una tarea" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#000000;fillColor=#99CCFF;" parent="q6yt_Ocg_WMX1UqEqIzg-2" vertex="1">
+          <mxGeometry x="8.5" y="274" width="230" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="yFSVLmBvceMdSCzZUma9-7" value="(SGT007): Realizar la carcteristca de visualizar tareas por categoría o etiqueta" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#000000;fillColor=#99CCFF;" parent="q6yt_Ocg_WMX1UqEqIzg-2" vertex="1">
+          <mxGeometry x="8.5" y="349" width="230" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="yFSVLmBvceMdSCzZUma9-9" value="(SGT004): Realizar la carcteristca de clasificar tareas por diferentes criterios" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#000000;fillColor=#99CCFF;" parent="q6yt_Ocg_WMX1UqEqIzg-2" vertex="1">
+          <mxGeometry x="8.5" y="424" width="230" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="q6yt_Ocg_WMX1UqEqIzg-3" value="Teminadas" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=35;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="359" y="-16" width="247" height="467" as="geometry" />
+        </mxCell>
+        <mxCell id="q6yt_Ocg_WMX1UqEqIzg-6" value="&lt;font color=&quot;#000000&quot;&gt;Obtener el&amp;nbsp;frontend&amp;nbsp;proporcionando desde github&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;verticalAlign=top;fillColor=#B9E0A5;fontColor=#ffffff;strokeColor=#2D7600;" parent="q6yt_Ocg_WMX1UqEqIzg-3" vertex="1">
+          <mxGeometry x="5.75" y="214" width="232" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-14" value="&lt;font color=&quot;#000000&quot;&gt;Diagrama de caso de uso&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#FFFFFF;fillColor=#B9E0A5;verticalAlign=middle;align=center;" parent="q6yt_Ocg_WMX1UqEqIzg-3" vertex="1">
+          <mxGeometry x="7.5" y="160" width="228.5" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-1" value="Requsitos funcionales y no funcionales" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#000000;fillColor=#B9E0A5;align=left;verticalAlign=top;" parent="q6yt_Ocg_WMX1UqEqIzg-3" vertex="1">
+          <mxGeometry x="8" y="97" width="228" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-15" value="Historias de usuario" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=16;fontColor=#000000;fillColor=#B9E0A5;align=center;verticalAlign=middle;strokeColor=#99CCFF;" parent="q6yt_Ocg_WMX1UqEqIzg-3" vertex="1">
+          <mxGeometry x="8.25" y="48" width="227" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="q6yt_Ocg_WMX1UqEqIzg-7" value="&lt;font color=&quot;#000000&quot;&gt;ToDo list JavaScript&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;gradientColor=#FFFFCC;gradientDirection=north;fillColor=#FFCC99;" parent="1" vertex="1">
+          <mxGeometry x="38" y="-141" width="293" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-7" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-522" y="-134" width="241" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;fontSize=16;fontColor=#000000;fillColor=#99CCFF;" parent="b_hstxsVOvOaN9Ohk5Ai-7" vertex="1">
+          <mxGeometry width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-6" value="&lt;font color=&quot;#ffffff&quot;&gt;En proceso / trabajo&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" parent="b_hstxsVOvOaN9Ohk5Ai-7" vertex="1">
+          <mxGeometry x="54" y="12" width="187" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-8" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-522" y="-66" width="241" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;fontSize=16;fontColor=#000000;fillColor=#CCFF99;" parent="b_hstxsVOvOaN9Ohk5Ai-8" vertex="1">
+          <mxGeometry width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-10" value="&lt;font color=&quot;#ffffff&quot;&gt;Estable&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" parent="b_hstxsVOvOaN9Ohk5Ai-8" vertex="1">
+          <mxGeometry x="53.5" y="12" width="104.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-11" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-522" y="14" width="241" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;fontSize=16;fontColor=#000000;fillColor=#FFB366;" parent="b_hstxsVOvOaN9Ohk5Ai-11" vertex="1">
+          <mxGeometry width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-13" value="&lt;font color=&quot;#ffffff&quot;&gt;Con riesgos&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" parent="b_hstxsVOvOaN9Ohk5Ai-11" vertex="1">
+          <mxGeometry x="38.5" y="12" width="164" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-17" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-522" y="89" width="241" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;fontSize=16;fontColor=#000000;fillColor=#FF6666;" parent="b_hstxsVOvOaN9Ohk5Ai-17" vertex="1">
+          <mxGeometry width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="b_hstxsVOvOaN9Ohk5Ai-19" value="&lt;font color=&quot;#ffffff&quot;&gt;Con problemas&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" parent="b_hstxsVOvOaN9Ohk5Ai-17" vertex="1">
+          <mxGeometry x="38.5" y="12" width="164" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
