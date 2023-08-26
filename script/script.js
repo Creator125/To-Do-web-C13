@@ -1,6 +1,11 @@
 /*TIPS: *No olvides utilizar el almacenamiento local (localStorage)
  para que las tareas queden guardadas en caso
  de que la aplicación se cierre.*/
+
+const itemsArray = localStorage.getItem('items')
+  ? JSON.parse(localStorage.getItem('items'))
+  : [];
+
 function displayFooter() {
   let page = `      
      
@@ -57,4 +62,5 @@ function displayFooter() {
 
 //Recordar llamar las funciones displayItems() y displayFooter() para mostrar
 //las tareas en pantalla
-displayFooter()
+displayFooter();
+displayItems();

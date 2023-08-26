@@ -11,16 +11,16 @@ function displayFooter() {
 
         <ul class="filters">
           <li>
-            <a class="selected filtro" href="#/">Todos</a>
+            <a class="selected filtro" href="#/" onclick="showAll()">Todos</a>
           </li>
           <li>
-            <a class="filtro" href="#/active">Pendientes</a>
+            <a class="filtro" href="#/active" onclick="showPend()">Pendientes</a>
           </li>
           <li>
-            <a class="filtro" href="#/completed">Completados</a>
+            <a class="filtro" href="#/completed" onclick="showComp()">Completados</a>
           </li>
         </ul>
-        <button class="clear-completed">Borrar completados</button>
+        <button class="clear-completed" onclick="borrarCompletados()" id="clear-completed">Borrar completados</button>
       </footer>
     `
   document.querySelector('.footer').innerHTML = page
