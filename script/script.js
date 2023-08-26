@@ -1,7 +1,7 @@
 /*TIPS: *No olvides utilizar el almacenamiento local (localStorage)
  para que las tareas queden guardadas en caso
  de que la aplicación se cierre.*/
-
+let nuevaTarea = document.querySelector('.new-todo');
 const itemsArray = localStorage.getItem('items')
   ? JSON.parse(localStorage.getItem('items'))
   : [];
@@ -31,6 +31,16 @@ function displayFooter() {
 }
 
 // Codigo DOM #1
+nuevaTarea.addEventListener('keyup', (event) => {
+  if (
+    event.keyCode === 13 &&
+    document.querySelector('.new-todo').value.length > 0
+  ) {
+    const item = document.querySelector('.new-todo')
+    //Llamar la función que crea la tarea.**
+    crearTarea(item);
+  }
+});
 
 // Codigo DOM #2
 
