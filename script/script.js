@@ -11,7 +11,7 @@ function displayFooter() {
      
       <footer class="footer">
        
-        <span class="todo-count"><strong>${/*countPend()*/ 1}</strong> pendiente(s)</span>
+        <span class="todo-count"><strong>${countPend()}</strong> pendiente(s)</span>
         
         <ul class="filters">
           <li>

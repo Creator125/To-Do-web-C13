@@ -10,7 +10,7 @@ function displayItems() {
                       <input class="toggle" type="checkbox" id="check_${i}" ${
       itemsArray[i].checked ? 'checked' : ''
     } />
-                      <textarea disabled>${itemsArray[i].thing}</textarea>
+                      <textarea disabled>${itemsArray[i].titulo}</textarea>
                       <div class="edit-controller">
                         <div>
                           Prioridad
