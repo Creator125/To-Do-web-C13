@@ -53,7 +53,7 @@ function displayItems() {
                             </select>
                         </div>
                         <i class="fa-solid fa-pen-to-square editBtn"></i>
-                        <i class="fa-solid fa-x deleteBtn"></i>
+                        <img src="icons/x.svg" class="deleteBtn">
                       </div>
                     </div>
                     <div class="update-controller">

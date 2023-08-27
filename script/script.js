@@ -2,6 +2,8 @@
  para que las tareas queden guardadas en caso
  de que la aplicación se cierre.*/
 let nuevaTarea = document.querySelector('.new-todo');
+let toggle = document.querySelectorAll('.toggle');
+let inputController = document.querySelectorAll(".input-controller");
 const itemsArray = localStorage.getItem('items')
   ? JSON.parse(localStorage.getItem('items'))
   : [];
@@ -11,7 +13,7 @@ function displayFooter() {
      
       <footer class="footer">
        
-        <span class="todo-count"><strong>${/*countPend()*/ 1}</strong> pendiente(s)</span>
+        <span class="todo-count"><strong>${countPend()}</strong> pendiente(s)</span>
         
         <ul class="filters">
           <li>
@@ -61,6 +63,7 @@ function activateDeleteListeners() {
   deleteBtn.forEach((db, i) => {
     db.addEventListener('click', () => {
       //Llamar la función que elimina la tarea
+      eliminarTarea(i);
     })
   })
 }
