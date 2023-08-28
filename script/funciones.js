@@ -28,9 +28,6 @@ function eliminarTarea(item){
     location.reload();
 }
 
-
-//Contadores:
-
 //Funcion que contará la cantidad de tareas pendientes
 function countPend(){
     //Almacenar la canatidad de objetos
@@ -86,4 +83,14 @@ function showComp(){
     });
 
     localStorage.setItem("items", JSON.stringify(itemsArray));
+}
+
+//Funcion para el boton de eliminar tareas completadas
+
+function borrarCompletados(){
+    //Variable para filtar las tareas macadas
+    const tareasCompretadas = itemsArray.filter((item) => item.checked == false);
+
+    localStorage.setItem("items", JSON.stringify(tareasCompretadas));
+    location.reload();
 }
