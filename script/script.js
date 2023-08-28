@@ -1,9 +1,7 @@
 /*TIPS: *No olvides utilizar el almacenamiento local (localStorage)
  para que las tareas queden guardadas en caso
  de que la aplicación se cierre.*/
-let nuevaTarea = document.querySelector('.new-todo');
-let toggle = document.querySelectorAll('.toggle');
-let inputController = document.querySelectorAll(".input-controller");
+const nuevaTarea = document.querySelector('.new-todo');
 const itemsArray = localStorage.getItem('items')
   ? JSON.parse(localStorage.getItem('items'))
   : [];
