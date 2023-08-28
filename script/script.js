@@ -116,6 +116,7 @@ function activateSaveListeners() {
   saveBtn.forEach((sB, i) => {
     sB.addEventListener('click', () => {
       // Llamar la función que guarda la actualización la tarea
+      actualizarTarea(inputs[i].value, i);
     })
   })
 }
@@ -131,6 +132,7 @@ function activateCancelListeners() {
       updateController[i].style.display = 'none'
       inputs[i].disabled = true
       inputs[i].style.border = 'none'
+      location.reload();
     })
   })
 }

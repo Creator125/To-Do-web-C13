@@ -94,3 +94,10 @@ function borrarCompletados(){
     localStorage.setItem("items", JSON.stringify(tareasCompretadas));
     location.reload();
 }
+
+//funcion para guargar la actualizacion de la tarea
+function actualizarTarea(text, item){
+    itemsArray[item].thing = text; //Editar el texto de la tarea
+    localStorage.setItem("items", JSON.stringify(itemsArray));
+    location.reload();
+}

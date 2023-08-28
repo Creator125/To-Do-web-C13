@@ -52,7 +52,7 @@ function displayItems() {
                               }>Emprendimiento</option> 
                             </select>
                         </div>
-                        <i class="fa-solid fa-pen-to-square editBtn"></i>
+                        <img src="icons/edit.svg" class="editBtn">
                         <img src="icons/x.svg" class="deleteBtn">
                       </div>
                     </div>
