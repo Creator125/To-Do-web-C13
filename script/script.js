@@ -92,16 +92,20 @@ function activateEditListeners() {
     })
   })
 
-  prioritySelects.addEventListener('change', (event) => {
-    const selectedIndex = event.target.selectedIndex
-    itemsArray[i].priority = event.target.options[selectedIndex].text
-    localStorage.setItem('items', JSON.stringify(itemsArray))
+  const selecPrioridad = document.querySelectorAll('#priority');
+  selecPrioridad.forEach((elemento, selectedIndex) => {
+    elemento.addEventListener('change', (event) => {
+      itemsArray[selectedIndex].priority = event.target.value;
+      localStorage.setItem('items', JSON.stringify(itemsArray));
+    })
   })
 
-  categorySelects.addEventListener('change', (event) => {
-    const selectedIndex = event.target.selectedIndex
-    itemsArray[i].category = event.target.options[selectedIndex].text
-    localStorage.setItem('items', JSON.stringify(itemsArray))
+  const selecCategoria = document.querySelectorAll('#category');
+  selecCategoria.forEach((elemento, selectedIndex) => {
+    elemento.addEventListener('change', (event) => {
+      itemsArray[selectedIndex].category = event.target.value;
+      localStorage.setItem('items', JSON.stringify(itemsArray));
+    })
   })
 }
 
