@@ -18,10 +18,10 @@ function displayFooter() {
             <a onclick="showAll() "class="selected filtro" href="#/">Todos</a>
           </li>
           <li>
-            <a onclick="showPend()" class="filtro" href="#/active">Pendientes</a>
+            <a onclick="showPend()" class="filtro btnPend" href="#/active">Pendientes</a>
           </li>
           <li>
-            <a onclick="showComp()" class="filtro" href="#/completed">Completados</a>
+            <a onclick="showComp()" class="filtro btnComp" href="#/completed">Completados</a>
           </li>
         </ul>
         <button onclick="borrarCompletados()" id="clear-completed" class="clear-completed">Borrar completados</button>
