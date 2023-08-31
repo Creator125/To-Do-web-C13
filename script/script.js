@@ -107,6 +107,14 @@ function activateEditListeners() {
       localStorage.setItem('items', JSON.stringify(itemsArray));
     })
   })
+
+  const selecColor = document.querySelectorAll('#color');
+  selecColor.forEach((elemento, selectedIndex) => {
+    elemento.addEventListener('change', (event) => {
+      itemsArray[selectedIndex].color = event.target.value;
+      localStorage.setItem('items', JSON.stringify(itemsArray));
+    })
+  })
 }
 
 // Codigo DOM #5

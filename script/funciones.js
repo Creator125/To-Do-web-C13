@@ -7,7 +7,8 @@ function crearTarea(item){
         checked: false,
         disabled: true,
         priority: "Alta",
-        category: "Casa"
+        category: "Casa",
+        color: "#94D8F6"
     };
 
     // Agrega el nuevo elemento al arreglo 'itemsArray'
