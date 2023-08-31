@@ -2,7 +2,7 @@
 
 ![](./doc/Captura.png)
 
-Es es una aplicacion de sistema de gestion de tareas en la que puedes gestionar y organizar tus actividades
+Esta es una aplicacion de sistema de gestion de tareas en la que puedes gestionar y organizar tus actividades
 
 ## Caracteristicas
 
