@@ -31,8 +31,13 @@ function eliminarTarea(item){
 
 //Funcion que contará la cantidad de tareas pendientes
 function countPend(){
-    //Almacenar la canatidad de objetos
-    let cant = itemsArray.length;
+    let cant = 0;
+
+    for(let i = 0; i < itemsArray.length; i++){
+        if (!itemsArray[i].checked) {
+            cant++;
+        }
+    }
 
     localStorage.setItem("items", JSON.stringify(itemsArray));
     return cant;

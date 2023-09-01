@@ -109,12 +109,16 @@ function activateEditListeners() {
   })
 
   const selecColor = document.querySelectorAll('#color');
-  selecColor.forEach((elemento, selectedIndex) => {
-    elemento.addEventListener('change', (event) => {
-      itemsArray[selectedIndex].color = event.target.value;
+selecColor.forEach((elemento, selectedIndex) => {
+  elemento.addEventListener('change', (event) => {
+    const nuevoValor = event.target.value;
+    if (itemsArray[selectedIndex].color !== nuevoValor) {
+      itemsArray[selectedIndex].color = nuevoValor;
       localStorage.setItem('items', JSON.stringify(itemsArray));
-    })
-  })
+      location.reload(); // Recarga la página solo si el color ha cambiado
+    }
+  });
+});
 }
 
 // Codigo DOM #5
