@@ -1,28 +1,28 @@
 # ToDo Web
 
-![](./doc/Captura.png)
+![](./doc/Captura.jpg)
 
-Esta es una aplicacion de sistema de gestion de tareas en la que puedes gestionar y organizar tus actividades
+Esta es una aplicación de sistema de gestion de tareas en la que puedes gestionar y organizar tus actividades
 
 ## Caracteristicas
 
 ### Agregar tareas
-Puedes agregar una trarea simplemente escribiendo en el campo de texto y luego dale enter para guardala e insertala en la lista.
+Puedes agregar una trarea simplemente escribiendo en el campo de texto y luego presiona la tecla enter para guardala e insertala en la lista.
 
 ### Visualizar tareas
-Puedes ver todas tu actividades y tareas que vallas creando.
+Puedes ver todas tu actividades y tareas que vallas creando. Tambien puedes filtar la vista de tus tareas de acuerdo a su estado, los cuales son **Completados** y **Pendientes**.
 
-### Marcar como completado
-En caso que hayar terminado una tarea como completado puedes marcala.
+### Marcar completados
+En caso que hayas terminado una tarea como completado puedes marcala.
 
-### Eliminar tarea
+### Eliminar tareas
 Puedes eliminar una tarea inecesaria o las que se haya completado y ya no se necesite.
 
 ### Clasificar
-Puedes clasificar las tareas por distintas categorias y prioridad.
+Puedes clasificar las tareas por distintas categorias y prioridades.
 
 ### Editar la información
-Puedes editar la información de la tarea icluyendo su clasificación.
+Puedes editar la información de la tarea.
 
-### filtro
-Puedes filtar la vista de tus tareas de acuerdo a su estado, los cuales son **Completados** y **Pendientes**.
+### Personalizar
+Puedes Cambiar el color de fondo de las tareas.
